@@ -1,0 +1,358 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    }
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: baseline;
+    background-color: #333333;
+}
+
+.flag{
+    background-color: #ffffff;
+    display: flex;
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+
+.bloque1{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    float: left;
+    
+}
+
+.bloque2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: right;
+    width: 20%;
+    height: 100%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row__1{
+    justify-content: space-around;
+}
+
+.row__2{
+justify-content: space-around;
+}
+
+.row__3{
+justify-content: space-between;
+}
+
+
+
+
+/* First Row */
+
+/* Spain */
+.esp0{
+    display: flex;
+    flex-direction: column;
+}
+.esp1{
+    background-color: red;
+    display: flex;
+    height: 25%;
+    width: 100%;
+}
+
+.esp2{
+    background-color: yellow;
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+
+.esp3{
+    background-color: red;
+    display: flex;
+    height: 25%;
+    width: 100%;
+}
+
+/* Argentina */
+.arg0{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.arg1{
+    background-color: lightblue;
+    display: flex;
+    height: 33.3%;
+    width: 100%;
+}
+
+/* Germany */
+.ger0{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ger1{
+    background-color: black;
+    display: flex;
+    height: 33.3%;
+    width: 100%;
+}
+
+.ger2{
+    background-color: red;
+    display: flex;
+    height: 33.3%;
+    width: 100%;
+}
+
+.ger3{
+    background-color: yellow;
+    display: flex;
+    height: 33.3%;
+    width: 100%;
+}
+
+
+/* second row */
+
+/* France */
+.fra0{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fra1{
+    background-color: blue;
+    display: flex;
+    height: 100%;
+    width: 33.33%; 
+}
+
+.fra2{
+    background-color: red;
+    display: flex;
+    height: 100%;
+    width: 33.33%;
+}
+
+/* Italy */
+.ita0{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ita1{
+    background-color: green;
+    display: flex;
+    height: 100%;
+    width: 33.33%; 
+}
+
+.ita2{
+    background-color: red;
+    display: flex;
+    height: 100%;
+    width: 33.33%;
+}
+
+
+/* third row */
+
+/* Costa Rica */
+.cos0{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cos1{
+    background-color: blue;
+    display: flex;
+    width: 100%;
+    height: 15%;
+}
+
+.cos2{
+    background-color: red;
+    display: flex;
+    width: 100%;
+    height: 40%;
+}
+
+
+/* Catalonia */
+.cat0{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cat1{
+    background-color: yellow;
+    display: flex;
+    height: 100%;
+    width: 100%; 
+}
+
+.cat2{
+    background-color: red;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Ginea Bisau */
+.gin0{
+    display: flex;
+    flex-flow:column wrap;  
+    justify-content: space-around;
+}
+
+.gin1{
+    background-color: red;
+    display: flex;
+    width: 30%;
+    height: 100%;
+}
+
+.gin2{
+    background-color: yellow;
+    display: flex;
+    height: 50%;
+    width: 70%;
+}
+
+.gin3{
+    background-color: green;
+    display: flex;
+    height: 50%;
+    width: 70%;
+}
+
+/* EAU */
+.eau0{
+    display: flex;
+    flex-flow:column wrap;  
+    justify-content: space-between;
+}
+
+.eau1{
+    background-color: red;
+    display: flex;
+    width: 25%;
+    height: 100%;
+}
+
+.eau2{
+    background-color: green;
+    display: flex;
+    height: 33.33%;
+    width: 75%;
+}
+
+.eau3{
+    background-color: black;
+    display: flex;
+    height: 33.33%;
+    width: 75%;
+}
+
+/* column */
+
+/* Japan */
+.jap0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jap1{
+    background-color: red;
+    display: flex;
+    border-radius: 100%;
+    height: 80%;
+    width: 50%; 
+} 
+
+/* Panama */
+.pan0{
+    display: flex;
+    flex-flow:row wrap-reverse;
+    justify-items: center;
+}
+
+.pan1{
+    background-color: blue;
+    display: flex;
+    align-items: baseline;
+    height: 50%;
+    width: 50%;
+}
+
+.pan2{
+    background-color: red;
+    display: flex;
+    height: 50%;
+    width: 50%;
+}
+
+/* Dominican Republic */
+.dom0{
+    display: flex;
+    flex-flow:row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.dom1{
+    background-color: blue;
+    display: flex;
+    height: 42%;
+    width: 45%;
+}
+
+.dom2{
+    background-color: red;
+    display: flex;
+    height: 42%;
+    width: 45%;
+    
+}
+
+/* EEUU */
+
+.usa0{
+    display: flex;
+    flex-flow: row wrap;  
+    justify-content: space-between;
+
+}
+
+.usa1{
+    background-color: blue;
+    display: flex;
+    height: 40%;
+    width: 50%;  
+    float: left;     
+}
+
+.usa2{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    height: 8%;
+    width: 100%; 
+}
