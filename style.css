@@ -287,26 +287,9 @@ justify-content: space-between;
     width: 50%; 
 } 
 
-/* Panama */
-.pan0{
-    display: flex;
-    flex-flow:row wrap-reverse;
-    justify-items: center;
-}
-
-.pan1{
-    background-color: blue;
-    display: flex;
-    align-items: baseline;
-    height: 50%;
-    width: 50%;
-}
-
-.pan2{
-    background-color: red;
-    display: flex;
-    height: 50%;
-    width: 50%;
+.pan0 img{
+    width: 250px;
+    height: 150px;
 }
 
 /* Dominican Republic */
@@ -334,25 +317,7 @@ justify-content: space-between;
 
 /* EEUU */
 
-.usa0{
-    display: flex;
-    flex-flow: row wrap;  
-    justify-content: space-between;
-
-}
-
-.usa1{
-    background-color: blue;
-    display: flex;
-    height: 40%;
-    width: 50%;  
-    float: left;     
-}
-
-.usa2{
-    background-color: red;
-    display: flex;
-    justify-content: space-between;
-    height: 8%;
-    width: 100%; 
+.usa0 img{
+    width: 250px;
+    height: 150px;
 }
